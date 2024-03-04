@@ -1,0 +1,11 @@
+h1.title{ 
+    text-align: center;
+    background-color: cadetblue;
+    box-shadow: 5px 5px 10px gray;
+    padding: 0.5em;
+    color: whitesmoke;
+}
+img.img1{
+    width: 100%;
+    margin: calc(9%/4);
+}
