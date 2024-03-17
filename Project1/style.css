@@ -21,7 +21,7 @@ section.flexcontainer{
 }
 div.infoleft, div.inforight{
     width: 49%;
-    border: solid red;
+    border: solid blue;
 }
 img{
     width: 100%;
