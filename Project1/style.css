@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 h1.title{ 
     text-align: center;
     background-color: cadetblue;
@@ -9,8 +10,8 @@ img.img1{
     width: 100%;
     margin: calc(9%/4);
 }
-*{box-sizing: border-box;}
-section.flexcontainer{
+
+div.cardcontainer{
     width: 80%;
     border: solid gray 5px;
     margin: 10%;
@@ -19,9 +20,19 @@ section.flexcontainer{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+section.infocontainer{
+    width: 45%;
+    margin: 2% 1%;
+}
 div.infoleft, div.inforight{
-    width: 49%;
+    width: 100%;
     border: solid blue;
+}
+img.img1{
+    width: 50%;
+    border: solid black 30px;
+    box-shadow: 5px 5px 10px black;
+
 }
 img{
     width: 100%;
@@ -44,4 +55,19 @@ section.flexcontainer{
 div.sqr{
     height: 100px;
     width: 200px;
+}
+footer.footer{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+section.footersection{
+    width: 30%;
+    margin: 1%;
+}
+section.footersection img{
+    width: 50px;
+    height: 50px;
+    display: inline;
 }
