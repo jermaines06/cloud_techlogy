@@ -71,3 +71,9 @@ section.footersection img{
     height: 50px;
     display: inline;
 }
+.background-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100vh;
+}
