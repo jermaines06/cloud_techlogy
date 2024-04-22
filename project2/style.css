@@ -13,3 +13,13 @@ h1{
     color: var(--primarycolor);
     
 }
+*{box-sizing: border-box;}
+
+body{
+    background-image: url(images/watch-background.jpg);
+    background-repeat: repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: 105%;
+    margin: 0px;
+}
